@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethics Builder</title>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/Merit-Leadership-Logo-Yellow-180x99.png" alt="Merit Logo">
+    </header>
+    <main>
+        <div class="signup-form">
+            <h3>Ethics Builder Registration</h3>
+            <form name="signup" id="signup">
+                <!-- <fieldset> -->
+                    <!-- <legend>Signup Info</legend> -->
+                    <label class="required">First Name</label>
+                    <input type="text" name="fname" autofocus maxlength="50" required></input>
+                    <label class="required">Last Name</label>
+                    <input type="text" name="lname" autofocus maxlength="50" required></input>
+                    <label class="required">Email</label>
+                    <input type="email" name="fname" autofocus maxlength="50"required></input>
+                    <label class="required">School</label>
+                    <select name="schools" id="school">
+                        <option value="select">Select a School</option>
+                        <option value="school1">school1</option>
+                        <option value="school2">school2</option>
+                        <option value="school3">school3</option>
+                    </select>
+                    <label class="required">Student ID Number</label>
+                    <input type="text" name="studentid" autofocus maxlength="50"required></input>
+                    <label class="required">Bookstore Code</label>
+                    <input type="text" name="bookcode" autofocus maxlength="15"required></input>
+    
+                <!-- </fieldset> -->
+                <fieldset>
+                    <label class=""><input type="checkbox" name="terms" id="terms" required title="Please accept the Terms and Conditions before proceeding">  I accept the <a href="https://merit.arlo.co/terms-and-conditions?id=1" target="_blank">Terms and Conditions</a></input></label>
+                </fieldset>
+            </form>
+            <button class="submitBtn" id="submit">Register</button>
+
+        </div>
+    </main>
+    <footer></footer>
+    
+    
+</body>
+</html>
