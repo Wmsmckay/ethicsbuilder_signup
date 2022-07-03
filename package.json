@@ -1,0 +1,19 @@
+{
+  "name": "ethicsbuilder_signup",
+  "version": "1.0.0",
+  "description": "Web app that allows users to signup with a unique code",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wmsmckay/ethicsbuilder_signup.git"
+  },
+  "author": "McKay Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wmsmckay/ethicsbuilder_signup/issues"
+  },
+  "homepage": "https://github.com/Wmsmckay/ethicsbuilder_signup#readme"
+}
